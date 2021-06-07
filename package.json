@@ -9,7 +9,9 @@
     "seed": "node server/seed.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "hg-pages -d build -r https://$curso_react_js@github.com/dbriceno10/Curso-React-JS-platzi-badges"
   },
   "dependencies": {
     "bootstrap": "^5.0.1",
@@ -44,5 +46,6 @@
     "framework"
   ],
   "author": "Daniel Briceño <daniel.b00726@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage":"https://dbriceno10.github.io/Curso-React-JS-platzi-badges"
 }
