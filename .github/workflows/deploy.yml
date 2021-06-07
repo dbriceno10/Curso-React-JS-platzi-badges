@@ -24,4 +24,4 @@ jobs:
       - name: deploy the app
         run: npm run deploy
         env:
-          curso_react_js: ${{ secrets.curso_react_js}}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
