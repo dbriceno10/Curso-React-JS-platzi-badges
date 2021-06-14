@@ -11,12 +11,9 @@ class Badge extends React.Component {
     // }
     render() {
         const {
-            firstName,
-            lastName,
-            avatarUrl,
-            jobTitle,
-            twitter,
-            email
+            image,
+            name, 
+            species
             } = this.props
         return (
             <div className="Badge">
@@ -25,14 +22,14 @@ class Badge extends React.Component {
                 </div>
 
                 <div className="Badge__section-name">
-                    {/* <img className="Badge__avatar" src={avatarUrl} alt="Avatar"/> */}
-                    <Gravatar className="Badge__avatar" email={email} alt="Avatar"/>
-                    <h1>{firstName} <br/>{lastName}</h1>
+                    <img className="Badge__avatar" src={image} alt="Avatar"/>
+                    {/* <Gravatar className="Badge__avatar" email={email} alt="Avatar"/> */}
+                    <h1>{name}</h1>
                 </div>
 
                 <div className="Badge__section-info">
-                    <h3>{jobTitle}</h3>
-                    <span><img className="twitter-logo" src={twitterLogo} alt="logo de twitter"/></span><div>@{twitter}</div>
+                    <h3>{species}</h3>
+                    <span><img className="twitter-logo" src={twitterLogo} alt="logo de twitter"/></span><div>@{name}</div>
                     
                 </div>
                 <div className="Badge__footer">

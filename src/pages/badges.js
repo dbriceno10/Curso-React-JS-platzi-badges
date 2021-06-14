@@ -123,19 +123,24 @@ class Badges extends React.Component {
                                 <ul className="list-unstyled BadgesList">
                                     {this.state.data.results.map((character) => {
                                         return (
-                                            <li key = {character.id} className="BadgesListItem">
-                                                <img src={character.image} alt={character.name} className="BadgesListItem__avatar" />
-                                                <div>
-                                                    <b>
-                                                        {character.name}
-                                                    </b>
-                                                    <div className="Twitter__name">
-                                                    <span className="Twitter__logo"><img className="Twitter__logo-img" src={twitterLogo} alt="logo de twitter"/></span>
-                                                    @{character.name}
+                                            
+                                            <Link 
+                                            className="text-reset text-decoration-none" 
+                                            to={`/badges/${character.id}`}>
+                                                    <li key = {character.id} className="BadgesListItem">
+                                                    <img src={character.image} alt={character.name} className="BadgesListItem__avatar" />
+                                                    <div>
+                                                        <b>
+                                                            {character.name}
+                                                        </b>
+                                                        <div className="Twitter__name">
+                                                        <span className="Twitter__logo"><img className="Twitter__logo-img" src={twitterLogo} alt="logo de twitter"/></span>
+                                                        @{character.name}
+                                                        </div>
+                                                        {character.species}    
                                                     </div>
-                                                    {character.species}    
-                                                </div>
-                                            </li>
+                                                </li>
+                                            </Link>
                                         )
                                     })}
                                 </ul>
