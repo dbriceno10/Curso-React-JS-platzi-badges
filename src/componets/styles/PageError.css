@@ -12,6 +12,10 @@
   border-radius: 8px;
 }
 
+.error-img:hover {
+  opacity: 90%;
+}
+
 @media (max-width: 400px) {
   .error-img {
       width: 320px;
