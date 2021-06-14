@@ -86,7 +86,7 @@ class BadgeForm extends React.Component {
                     </div>
                     <div className="save-button-container">
                         <button onClick={this.handleClick} className="btn btn-primary action-btn">Save</button>
-                        <Link className="btn btn-danger action-btn" to="/badges">Cancel</Link>
+                        <Link className="btn btn-danger action-btn" to="/Curso-React-JS-platzi-badges/badges">Cancel</Link>
                     </div>
                     {/* vamos a desplegar un elmento condicionalmente, si el error existe (true, no es nulo), vamos a desplegra el siguiente párrafo */}
                     {this.props.error && <p className="text-danger" >{this.props.error.message}</p>}

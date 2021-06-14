@@ -1,6 +1,6 @@
 const getID = () => {
     const url = window.location.pathname
-    const id = url.slice(8)
+    const id = url.slice(37)
     return id
 }
 

@@ -118,7 +118,7 @@ class Badges extends React.Component {
                                             
                                             <Link 
                                             className="text-reset text-decoration-none" 
-                                            to={`/badges/${character.id}`}>
+                                            to={`/Curso-React-JS-platzi-badges/badges/${character.id}`}>
                                                     <li key = {character.id} className="BadgesListItem">
                                                     <img src={character.image} alt={character.name} className="BadgesListItem__avatar" />
                                                     <div>
