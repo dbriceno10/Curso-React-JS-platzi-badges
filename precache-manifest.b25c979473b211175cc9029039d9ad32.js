@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "c1e405c3b54604be27ed",
-    "url": "/Curso-React-JS-platzi-badges/static/css/main.f62f3e09.chunk.css"
+    "revision": "1779e7f69c6e0f7036be",
+    "url": "/Curso-React-JS-platzi-badges/static/css/main.d9162378.chunk.css"
   },
   {
-    "revision": "c1e405c3b54604be27ed",
-    "url": "/Curso-React-JS-platzi-badges/static/js/main.c1e405c3.chunk.js"
+    "revision": "1779e7f69c6e0f7036be",
+    "url": "/Curso-React-JS-platzi-badges/static/js/main.1779e7f6.chunk.js"
   },
   {
     "revision": "cd4643d76d796bd5d147",
     "url": "/Curso-React-JS-platzi-badges/static/js/runtime~main.cd4643d7.js"
   },
   {
-    "revision": "9223373fa1bfa3e7184e",
+    "revision": "88aef142d9838e308db1",
     "url": "/Curso-React-JS-platzi-badges/static/css/2.441602b3.chunk.css"
   },
   {
-    "revision": "9223373fa1bfa3e7184e",
-    "url": "/Curso-React-JS-platzi-badges/static/js/2.9223373f.chunk.js"
+    "revision": "88aef142d9838e308db1",
+    "url": "/Curso-React-JS-platzi-badges/static/js/2.88aef142.chunk.js"
   },
   {
     "revision": "d8917de2e02fbfa50ca36277734f877a",
@@ -30,10 +30,6 @@ self.__precacheManifest = [
   {
     "revision": "edac52f424233faabce3d4fab87728e3",
     "url": "/Curso-React-JS-platzi-badges/static/media/space.edac52f4.png"
-  },
-  {
-    "revision": "0abcdfcd1e323649a0338a204fe8b853",
-    "url": "/Curso-React-JS-platzi-badges/static/media/stars.0abcdfcd.svg"
   },
   {
     "revision": "06e733283fa43d1dd57738cfc409adbd",
@@ -52,11 +48,15 @@ self.__precacheManifest = [
     "url": "/Curso-React-JS-platzi-badges/static/media/Dr.Stone.3d899b30.jpg"
   },
   {
+    "revision": "0abcdfcd1e323649a0338a204fe8b853",
+    "url": "/Curso-React-JS-platzi-badges/static/media/stars.0abcdfcd.svg"
+  },
+  {
     "revision": "a1880fbfb5634577b88090c9f82b3de7",
     "url": "/Curso-React-JS-platzi-badges/static/media/platziconf-logo.a1880fbf.svg"
   },
   {
-    "revision": "85c7db4ea66f0f82c8bcd52a3e0424a2",
+    "revision": "2534e2c124abfe5aacf381ec497b9561",
     "url": "/Curso-React-JS-platzi-badges/index.html"
   }
 ];
