@@ -3,19 +3,16 @@ import "./styles/Badges.css"
 import ConfLogo from "../images/ingress5.png"
 import ReactLogo from "../images/react-logo3.svg"
 // import ConfLogo from "../images/space.png"
-import BadgesList from "../componets/badgesList"
+//import BadgesList from "../componets/badgesList"
 import {Link} from "react-router-dom"
-import api from "../api"
+//import api from "../api"
 import PageLoading from "../componets/pageLoading"
 import PageError from "../componets/pageError"
 import MiniLoader from "../componets/miniLoader"
 import "../componets/styles/BadgesList.css"
 import "bootstrap/dist/css/bootstrap.css"
 import twitterLogo from "../images/twitter.svg"
-// import getData from "../utils/getData"
-// import getHash from "../utils/getHash"
-//NOTA: Borré algunas notas sobre el ciclo de vida de los componentes, si quieres revisarlos regresa a ese commit o ve la notas
-
+import swal from "sweetalert"
 class Badges extends React.Component {
     // state = {//ahora vamos a traer los datos desde la api, se inicializan como undefinded
     //     loading: true,
@@ -100,11 +97,6 @@ class Badges extends React.Component {
 
 
     render() {
-        //console.log("2/4.render()")
-        //manejar cuando loading = true
-        // if(this.state.loading === true && this.state.data === undefined) {
-        //     return <PageLoading />
-        // }
         if(this.state.loading === true && !this.state.data) {//Pide los datos de forma automática, la primera vez
             return <PageLoading />
         }
@@ -115,7 +107,7 @@ class Badges extends React.Component {
         }
         return (
             <React.Fragment>
-                <div className="Badges__hero">
+                <div className="Badges__hero sup-margin">
                     <div className="Badges__container">
                         <div className="Badges__list">
                             <div className="Badges__container">
@@ -135,7 +127,7 @@ class Badges extends React.Component {
                                                         </b>
                                                         <div className="Twitter__name">
                                                         <span className="Twitter__logo"><img className="Twitter__logo-img" src={twitterLogo} alt="logo de twitter"/></span>
-                                                        @{character.name}
+                                                        @{character.name.split(" ").join("").toLowerCase()}
                                                         </div>
                                                         {character.species}    
                                                     </div>
@@ -151,8 +143,20 @@ class Badges extends React.Component {
                                 <div className="Badges">
                                     <div className="Badges__hero">
                                         <div className="Badges__container">
-                                            <div className="Badges__buttons">
+                                            {/* <div className="Badges__buttons">
                                                 <Link to="/badges/new" className="btn btn-primary">New Badge</Link>
+                                            </div> */}
+                                            <div className="Badges__buttons">
+                                                <button 
+                                                    className="btn btn-primary"
+                                                    onClick = {() => {
+                                                        swal({
+                                                        title: "Coming Soon",
+                                                        text: "We hope to activate this soon",
+                                                        icon: "info",
+                                                    })
+                                                    }}
+                                                >New Badge</button>
                                             </div>
                                             <div className="badge-logos-container">
                                                 <Link to="/comingson"><img className="Badges_conf-logo Badges_conf-logo-width" src={ConfLogo} alt="Conf Logo" /></Link>
@@ -166,9 +170,9 @@ class Badges extends React.Component {
                                     </div>
                                 </div>
                                 {/* Añadimos un indicador si está en loading */}
-                                <div className="miniloader">
+                                {/* <div className="miniloader">
                                     {this.state.loading && <MiniLoader/>}
-                                </div>
+                                </div> */}
                             
                             </div>
                         </div>
