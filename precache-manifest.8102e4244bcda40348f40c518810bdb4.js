@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "62d9c64831b4f7b4fc4c",
-    "url": "/Curso-React-JS-platzi-badges/static/css/main.c352ef6c.chunk.css"
+    "revision": "d860510dd0121eeeb203",
+    "url": "/Curso-React-JS-platzi-badges/static/css/main.31952e05.chunk.css"
   },
   {
-    "revision": "62d9c64831b4f7b4fc4c",
-    "url": "/Curso-React-JS-platzi-badges/static/js/main.62d9c648.chunk.js"
+    "revision": "d860510dd0121eeeb203",
+    "url": "/Curso-React-JS-platzi-badges/static/js/main.d860510d.chunk.js"
   },
   {
     "revision": "cd4643d76d796bd5d147",
     "url": "/Curso-React-JS-platzi-badges/static/js/runtime~main.cd4643d7.js"
   },
   {
-    "revision": "973ff54a88e57d3cb84b",
+    "revision": "28644913cbd28de6e7cf",
     "url": "/Curso-React-JS-platzi-badges/static/css/2.441602b3.chunk.css"
   },
   {
-    "revision": "973ff54a88e57d3cb84b",
-    "url": "/Curso-React-JS-platzi-badges/static/js/2.973ff54a.chunk.js"
+    "revision": "28644913cbd28de6e7cf",
+    "url": "/Curso-React-JS-platzi-badges/static/js/2.28644913.chunk.js"
   },
   {
     "revision": "d8917de2e02fbfa50ca36277734f877a",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/Curso-React-JS-platzi-badges/static/media/stars.0abcdfcd.svg"
   },
   {
-    "revision": "a4d27d5fbd43465404296f63b622f641",
+    "revision": "3b23507b01ba96b5be927a64ce85b719",
     "url": "/Curso-React-JS-platzi-badges/index.html"
   }
 ];
