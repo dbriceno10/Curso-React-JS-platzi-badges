@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/Curso-React-JS-platzi-badges/static/media/stars.0abcdfcd.svg"
   },
   {
-    "revision": "498d41d044cb12846e4e141b2a1d604a",
+    "revision": "d76ef60128c84f71d33caa56ca9443af",
     "url": "/Curso-React-JS-platzi-badges/index.html"
   }
 ];
