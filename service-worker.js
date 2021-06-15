@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Curso-React-JS-platzi-badges/precache-manifest.27d0fc7af9d7024a91ddc826f61d620e.js"
+  "/Curso-React-JS-platzi-badges/precache-manifest.1d17f42003a066ad04915326a913c9d8.js"
 );
 
 workbox.clientsClaim();
