@@ -1,6 +1,7 @@
 const getID = () => {
-    const url = window.location.pathname
-    const id = url.slice(37)
+    const url = window.location.hash
+    //sustituimos el método de window.location.pathname por windon.location.hash
+    const id = url.slice(9)
     return id
 }
 

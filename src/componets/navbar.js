@@ -8,7 +8,7 @@ class Navbar extends React.Component {
         return(
             <div className="Navbar">
                 <div className="container-fluid">
-                    <Link className="Navbar__brand" to="/Curso-React-JS-platzi-badges/">
+                    <Link className="Navbar__brand" to="/">
                         <img className="Navbar__brand-logo" src={logo} alt="logo"/>
                         <span className="fw-light">Space</span>
                         <span className="fw-bold">Badges</span>

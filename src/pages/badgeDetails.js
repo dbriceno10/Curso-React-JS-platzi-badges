@@ -98,7 +98,7 @@ class BadgeDetails extends React.Component {
                             /> */}
                             <Link
                             className="btn btn-primary btn-action"
-                            to={`/Curso-React-JS-platzi-badges/badges`}
+                            to={`/badges`}
                             >
                                 Back
                             </Link>

@@ -22,7 +22,7 @@ export default class Home extends Component {
                 />
                 {/* <h1>Badge Management System</h1> */}
                 <h1>Space Badges: Registrate Para la nueva convención espacial</h1>
-                <Link className="btn btn-primary btn-start" to="/Curso-React-JS-platzi-badges/badges">Start</Link>
+                <Link className="btn btn-primary btn-start" to="/badges">Start</Link>
               </div>
 
             </div>

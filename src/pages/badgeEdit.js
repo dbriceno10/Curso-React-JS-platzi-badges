@@ -1,5 +1,5 @@
 import React from "react"
-import header from "../images/platziconf-logo.svg"
+//import header from "../images/platziconf-logo.svg"
 import "./styles/BadgeEdit.css"
 import Badge from "../componets/badge"
 import BadgeForm from "../componets/badgeForm"

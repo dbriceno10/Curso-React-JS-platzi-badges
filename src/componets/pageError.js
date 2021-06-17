@@ -13,7 +13,7 @@ function PageError(props) {
       </Link>
       <h1 className="h1-title">{props.error.message}, please reload the page.</h1>
       <div className="Badges__buttons">
-        <Link className="btn btn-primary" to={`/Curso-React-JS-platzi-badges/`}>Home</Link>
+        <Link className="btn btn-primary" to={`/`}>Home</Link>
       </div>
     </div>
   )

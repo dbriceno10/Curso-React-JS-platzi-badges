@@ -10,7 +10,7 @@ const NotFound = () => {
         <div className="Home">
             <div className="container-error">
                 <div>
-                    <Link to="/Curso-React-JS-platzi-badges/">
+                    <Link to="/">
                         <img className="Error404-img" src={Error404} alt="Error404: Not Found" />
                     </Link>
                         <h1 className="error-mesagge">Page Not Found</h1>
