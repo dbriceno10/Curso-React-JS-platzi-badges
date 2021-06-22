@@ -1,6 +1,7 @@
 import React from "react"
 import "./styles/Badges.css"
-import ConfLogo from "../images/ingress5.png"
+// import ConfLogo from "../images/ingress5.png"
+import ConfLogo from "../images/portal-transparent.png"
 import ReactLogo from "../images/react-logo3.svg"
 // import ConfLogo from "../images/space.png"
 //import BadgesList from "../componets/badgesList"
