@@ -8,7 +8,7 @@ function PageError(props) {
   // return <div className="PageError">❌{props.error.message}😱</div>;
   return (
     <div className="PageError">
-      <Link to={`/Curso-React-JS-platzi-badges/`}>
+      <Link to={`/`}>
         <img className="error-img" src={error500} alt="server-internal error" />
       </Link>
       <h1 className="h1-title">{props.error.message}, please reload the page.</h1>
