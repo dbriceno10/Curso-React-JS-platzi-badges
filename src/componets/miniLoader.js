@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import './styles/Loader.css';
+import "./styles/Loader.css";
 
 class MiniLoader extends Component {
   render() {
@@ -14,4 +14,4 @@ class MiniLoader extends Component {
   }
 }
 
-export default MiniLoader
+export default MiniLoader;
