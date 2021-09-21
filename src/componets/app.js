@@ -19,7 +19,7 @@ const App = () => {
           {/* <Route exact path="/badges/new" component={BadgeNew} /> */}
           {/* <Route exact path="/badges/:badgeId/edit" component={BadgeEdit} /> */}
           <Route exact path="/badges/:badgeId" component={BadgeDetails} />
-          <Route component={NotFound} />{" "}
+          <Route component={NotFound} />
           {/**Esta sería una página de "Error404", si ningún elemento coincide con las rutas, tomará este componente de "error4" */}
         </Switch>
       </Layout>
