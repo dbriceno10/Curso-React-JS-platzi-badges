@@ -1,7 +1,11 @@
 :root {
   --deep-sapace: #01002a;
   --mid-deep-space: #192851;
-  --deep-space-gradient: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(1,0,42,1) 100%);
+  --deep-space-gradient: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 35%,
+    rgba(1, 0, 42, 1) 100%
+  );
   /* --deep-space-graduent: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(1,0,42,1) 70%); */
   /* --deep-space-gradient: linear-gradient(90deg, rgba(1,0,42,1) 0%, rgba(25,40,81,1) 35%); */
 }
@@ -43,7 +47,7 @@
   border-radius: 64px;
 }
 
-.space-logo{
+.space-logo {
   width: 200px;
 }
 

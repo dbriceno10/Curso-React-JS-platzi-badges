@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Anton");
 
 :root {
   --deep-sapace: #01002a;
   --mid-deep-space: #192851;
-  --deep-space-gradient: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(1,0,42,1) 100%);
+  --deep-space-gradient: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 35%,
+    rgba(1, 0, 42, 1) 100%
+  );
   /* --deep-space-graduent: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(1,0,42,1) 70%); */
   /* --deep-space-gradient: linear-gradient(90deg, rgba(1,0,42,1) 0%, rgba(25,40,81,1) 35%); */
 }
@@ -15,7 +19,7 @@
 }
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', sans-serif;
+  font-family: "Lato", "Helvetica Neue", sans-serif;
   background: url("./images/stars.svg"), var(--deep-space-gradient);
   background-repeat: repeat;
   /* background-color: var(--deep-space-gradient); */
@@ -25,7 +29,7 @@ body {
 }
 
 h1 {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 a.link-unstyled {
@@ -43,20 +47,20 @@ a.link-unstyled:hover {
 
 .btn.btn-primary {
   color: #fff;
-  background-color: #7DCD40;
-  border-color: #7DCD40;
+  background-color: #7dcd40;
+  border-color: #7dcd40;
 }
 
 .btn.btn-primary:not(:disabled):not(.disabled):hover {
   color: #fff;
-  background-color: #7DCD40;
-  border-color: #7DCD40;
+  background-color: #7dcd40;
+  border-color: #7dcd40;
 }
 
 .btn.btn-primary:not(:disabled):not(.disabled):active {
   color: #fff;
-  background-color: #7DCD40;
-  border-color: #7DCD40;
+  background-color: #7dcd40;
+  border-color: #7dcd40;
 }
 
 .btn.btn-primary:not(:disabled):not(.disabled):focus {
@@ -65,20 +69,20 @@ a.link-unstyled:hover {
 
 .btn.btn-danger {
   color: #fff;
-  background-color: #CD4040;
-  border-color: #CD4040;
+  background-color: #cd4040;
+  border-color: #cd4040;
 }
 
 .btn.btn-danger:not(:disabled):not(.disabled):hover {
   color: #fff;
-  background-color: #CD4040;
-  border-color: #CD4040;
+  background-color: #cd4040;
+  border-color: #cd4040;
 }
 
 .btn.btn-danger:not(:disabled):not(.disabled):active {
   color: #fff;
-  background-color: #CD4040;
-  border-color: #CD4040;
+  background-color: #cd4040;
+  border-color: #cd4040;
 }
 
 .btn.btn-danger:not(:disabled):not(.disabled):focus {
@@ -91,7 +95,7 @@ a.link-unstyled:hover {
   margin: 10px !important;
 } */
 
-.h1-title{
+.h1-title {
   color: #fff;
   text-align: center;
 }

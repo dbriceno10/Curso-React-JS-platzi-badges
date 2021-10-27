@@ -17,12 +17,11 @@
   position: relative;
   top: 10rem;
   /* background-color: #ffffff; */
-  background-color: #1B1B25;
+  background-color: #1b1b25;
   color: #fff;
   padding: 1rem;
   width: 400px;
   border-radius: 8px;
-
 }
 
 .Modal__close-button {
@@ -31,11 +30,10 @@
   right: 0;
   border: 0;
   /* background-color: #F5F5F5; */
-  background-color: #1B1B25;
+  background-color: #1b1b25;
   color: #fff;
   padding: 0.5rem 1rem;
   font-weight: bold;
   font-size: 2rem;
   border-radius: 8px;
-
 }

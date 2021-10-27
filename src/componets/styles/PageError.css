@@ -14,10 +14,9 @@
   border-radius: 8px;
 }
 
-
 @media (max-width: 400px) {
   .error-img {
-      width: 320px;
+    width: 320px;
   }
 }
 

@@ -191,13 +191,13 @@ class Badges extends React.Component {
                         </button>
                       </div>
                       <div className="badge-logos-container">
-                        <Link to="/comingson">
+                        {/* <Link to="/comingson">
                           <img
                             className="Badges_conf-logo Badges_conf-logo-width"
                             src={ConfLogo}
                             alt="Conf Logo"
                           />
-                        </Link>
+                        </Link> */}
                         <a href="https://es.reactjs.org/" target="_blank">
                           <img
                             className="Badges_conf-logo react-logo"
