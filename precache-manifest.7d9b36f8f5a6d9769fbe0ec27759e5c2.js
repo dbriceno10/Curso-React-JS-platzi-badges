@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "54c2f45c3ca7afc320fe",
-    "url": "/Curso-React-JS-platzi-badges/static/css/main.9711bce7.chunk.css"
+    "revision": "1646612b9541c50a78c9",
+    "url": "/Curso-React-JS-platzi-badges/static/css/main.7763be04.chunk.css"
   },
   {
-    "revision": "54c2f45c3ca7afc320fe",
-    "url": "/Curso-React-JS-platzi-badges/static/js/main.54c2f45c.chunk.js"
+    "revision": "1646612b9541c50a78c9",
+    "url": "/Curso-React-JS-platzi-badges/static/js/main.1646612b.chunk.js"
   },
   {
     "revision": "cd4643d76d796bd5d147",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/Curso-React-JS-platzi-badges/static/media/stars.0abcdfcd.svg"
   },
   {
-    "revision": "1e0715312ca384c9960675d4312d684f",
+    "revision": "b0f20e48e1be6ae1ed5647afc8f26106",
     "url": "/Curso-React-JS-platzi-badges/index.html"
   }
 ];
