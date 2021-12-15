@@ -15,12 +15,6 @@
     rgba(97, 218, 251, 1) 75%
   );
 }
-body {
-  /* width: 100%; */
-  /* height: 100vh; */
-  /* background: url("../../images/stars.svg"), var(--deep-space-gradient); */
-  /* background-repeat: repeat; */
-}
 
 .BadgeDetails__hero {
   width: 100%;
@@ -61,6 +55,10 @@ h2 {
   padding: 1rem;
   margin-left: 40px;
   margin-right: 40px;
+  transition: 0.3s;
+}
+.btn-action:hover{
+  background-color: #3e6620 !important;
 }
 .button-container {
   display: grid;

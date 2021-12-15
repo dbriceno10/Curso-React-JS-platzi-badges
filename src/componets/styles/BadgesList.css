@@ -23,14 +23,6 @@
 }
 
 .BadgesListItem {
-  /* background: #FFFFFF; */
-  /* background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 35%); */
-  /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 35%); */
-  /* background: radial-gradient(circle, rgba(97,218,251,1) 0%, rgba(238,238,238,1) 35%); */
-  /* background: radial-gradient(circle, rgba(238,238,238,1) 0%, rgba(97,218,251,1) 35%); */
-  /* background: radial-gradient(circle, rgba(238,238,238,1) 35%, rgba(97,218,251,1) 75%); */
-  /* background: radial-gradient(circle, rgba(238,238,238,1) 50%, rgba(97,218,251,1) 75%); */
-  /* background: radial-gradient(circle, rgba(238,238,238,1) 70%, rgba(97,218,251,1) 75%); */
   background: radial-gradient(circle, rgba(238,238,238,1) 70%, rgba(97,218,251,1) 100%);
   /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23); */
   box-shadow: inset 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
@@ -38,6 +30,7 @@
   display: flex;
   padding: 1rem;
   font-size: 1.1rem;
+  transition: 0.3s;
 }
 
 .BadgesListItem:hover {

@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/Home.css";
-// import spaceConfLogoImage from "../images/space.png";
 import spaceConfLogoImage from "../images/portal-transparent.png";
-// import DrStone from "../images/Dr.Stone.jpg";
 import DrStone from "../assets/images/logo@2x.png";
 
 export default class Home extends Component {

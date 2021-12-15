@@ -53,9 +53,13 @@
   margin-bottom: 2rem;
 }
 
-/* .Badges__buttons:hover {
-  opacity: 90%;
-} */
+.Badges__buttons button {
+  transition: 0.3s;
+}
+
+.Badges__buttons button:hover {
+  background-color: #3e6620 !important;
+}
 
 .badge-logos-container {
   /* display: grid; */

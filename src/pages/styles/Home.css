@@ -57,3 +57,11 @@
   align-items: center;
   text-align: center;
 }
+
+.btn-start {
+  transition: 0.3s;
+}
+
+.btn-start:hover {
+  background-color: #3e6620 !important;
+}
