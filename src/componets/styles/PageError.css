@@ -23,3 +23,11 @@
 .PageError h1 {
   margin: 40px;
 }
+
+#tohome {
+  transition: 0.3s;
+}
+
+#tohome:hover {
+  background-color: #3e6620 !important;
+}

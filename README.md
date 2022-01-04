@@ -1,0 +1,42 @@
+# Space Badges
+
+Hola, bienvenidos al repositorio Space Badges.
+
+## Comenzando 🚀
+
+Para hacerlo funcionar, te invito a clonar o forkear el repo. Una vez descargado, abre la terminal de comandos y ubicate en la carpeta del proyecto.
+## Scripts Disponibles
+
+En el directorio del proyecto puedes ejecutar:
+
+### `npm i ó npm install`
+Para instalar todas las dependencias que requiere el proyecto para funcionar.
+
+### `npm start`
+
+Corre la aplicación en modo desarrollo un tu servidor local en tu computadora.
+Abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm run build`
+
+Una vez realizado todos los cambios deseados con este comando crearas un bundle optimizado del proyecto listo para desplegar a producción.
+
+### `npm run deploy`
+
+El proyecto tiene una pequeña comfiguración para hacer el despliegue del proyecto en gh-pages en modo producción. Si usted desea modificar el proyecto para desplegar su propia app, debe cambiar en el archivo package.json la propiedad "homepage", de la siguiente manera: "homepage": "https://nombre-usuario.github.io/nombre-repositorio"
+
+## Despliegue 📦
+
+Podrás visitar mi portafolio en el siguiente enlace: https://dbriceno10.github.io/Curso-React-JS-platzi-badges
+
+## Construido con 🛠️
+
+HTML, CSS, JavaScript, React, Bootstrap.
+
+---
+⌨️ con ❤️ por [dbriceno10](https://github.com/dbriceno10) 😊
+
+<img src="./public/miniatura.png"/>

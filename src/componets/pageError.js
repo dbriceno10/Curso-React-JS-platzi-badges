@@ -14,7 +14,7 @@ function PageError(props) {
         {props.error.message}, please reload the page.
       </h1>
       <div className="Badges__buttons">
-        <Link className="btn btn-primary" to={`/`}>
+        <Link id="tohome" className="btn btn-primary" to={`/`}>
           Home
         </Link>
       </div>
