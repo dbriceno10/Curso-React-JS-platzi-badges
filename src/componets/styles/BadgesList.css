@@ -23,11 +23,18 @@
 }
 
 .BadgesListItem {
-  background: #FFFFFF;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
-  border-radius: 5px;
+  background: radial-gradient(circle, rgba(238,238,238,1) 70%, rgba(97,218,251,1) 100%);
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23); */
+  box-shadow: inset 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
   display: flex;
   padding: 1rem;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.BadgesListItem:hover {
+  background: radial-gradient(circle, rgba(238,238,238,1) 70%, rgba(97,218,251,1) 75%);
 }
 
 .BadgesListItem__avatar {
@@ -38,16 +45,52 @@
   height: 80px;
 }
 .Twitter__name {
-  color: #1da1f2;
+  /* color: #1da1f2; */
   
 }
 .Twitter__logo {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  /* background: url('../../images/Twitter_Social_Icon_Circle_Color.svg'); */
-  background-color: #1da1f2;
-  border-radius: 100%;
+  /* background-image: url("../../images/twitter.svg"); */
+  /* background-repeat: no-repeat;
+  background-position: center; */
+  /* background-color: #1da1f2; */
+  /* border-radius: 100%; */
   margin-right: 0.3rem;
   vertical-align: middle;
+}
+.Twitter__logo-img {
+  display: inline-block;
+  width: 1.5rem;
+  background-position: center;
+}
+.filter-label {
+  /* color: rgba(97,218,251,1); */
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 15px;
+  vertical-align: center;
+  font-weight: bold;
+}
+
+.form-control-filter {
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0;
+  height: auto;
+  background: #1B1B25;
+  justify-content: center;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px;
 }

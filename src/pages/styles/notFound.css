@@ -1,0 +1,24 @@
+.container-error {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Error404-img {
+  width: 400px;
+  border-radius: 100%;
+}
+
+@media (max-width: 400px) {
+  .Error404-img {
+    width: 320px;
+  }
+}
+
+.error-mesagge {
+  color: white;
+  margin: 15px;
+}
+
+/* .Error404-img:hover {
+  opacity: 90%;
+} */

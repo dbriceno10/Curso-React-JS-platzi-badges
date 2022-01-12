@@ -1,0 +1,33 @@
+.PageError {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.error-img {
+  width: 400px;
+  border-radius: 8px;
+}
+
+@media (max-width: 400px) {
+  .error-img {
+    width: 320px;
+  }
+}
+
+.PageError h1 {
+  margin: 40px;
+}
+
+#tohome {
+  transition: 0.3s;
+}
+
+#tohome:hover {
+  background-color: #3e6620 !important;
+}

@@ -1,0 +1,82 @@
+:root {
+  --deep-sapace: #01002a;
+  --mid-deep-space: #192851;
+  --deep-space-gradient: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 35%,
+    rgba(1, 0, 42, 1) 100%
+  );
+  /* --deep-space-graduent: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(1,0,42,1) 70%); */
+  /* --deep-space-gradient: linear-gradient(90deg, rgba(1,0,42,1) 0%, rgba(25,40,81,1) 35%); */
+  --react-blue: rgba(97, 218, 251, 1);
+  --react-blue-circular-gradient: radial-gradient(
+    circle,
+    rgba(238, 238, 238, 1) 70%,
+    rgba(97, 218, 251, 1) 75%
+  );
+}
+
+.BadgeDetails__hero {
+  width: 100%;
+  padding: 2rem 0;
+  /* background: url('../../images/stars.svg'), #1B1B25; */
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.BadgeDetails__hero-attendant-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.BadgeDetails__buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+/* .btn:hover {
+  opacity: 90%;
+} */
+
+h2 {
+  font-weight: bold;
+  /* color: var(--react-blue); */
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn-action {
+  width: 100px;
+  height: 60px;
+  padding: 1rem;
+  margin-left: 40px;
+  margin-right: 40px;
+  transition: 0.3s;
+}
+.btn-action:hover{
+  background-color: #3e6620 !important;
+}
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+  /* margin-top: 40px;
+  margin-left: 40px; */
+}
+
+.container-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0;
+  height: 200px;
+  background: #1b1b25;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}

@@ -1,9 +1,29 @@
-.Home {
-  width: 100%;
-  min-height: calc(100vh - 60px);
-  background: url('../../images/stars.svg'), #1B1B25;
-  background-repeat: repeat;
+:root {
+  --deep-sapace: #01002a;
+  --mid-deep-space: #192851;
+  --deep-space-gradient: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 35%,
+    rgba(1, 0, 42, 1) 100%
+  );
+  /* --deep-space-graduent: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(1,0,42,1) 70%); */
+  /* --deep-space-gradient: linear-gradient(90deg, rgba(1,0,42,1) 0%, rgba(25,40,81,1) 35%); */
+}
 
+/* body {
+  background-image: url("../../images/stars.svg");
+  background-repeat: repeat;
+  background-color: var(--deep-space-gradient);
+  width: 100vw;
+  height: 100vh;
+} */
+.Home {
+  /* width: 100%;
+  min-height: calc(100vh - 60px); */
+  /* background: url("../../images/stars.svg"), #1B1B25; */
+  /* background: url("../../images/stars.svg"), var(--deep-space-gradient);
+  background-repeat: repeat; */
+  margin-top: 60px;
   color: #ffffff;
 
   display: flex;
@@ -25,4 +45,23 @@
 
 .astronaut {
   border-radius: 64px;
+}
+
+.space-logo {
+  width: 200px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-start {
+  transition: 0.3s;
+}
+
+.btn-start:hover {
+  background-color: #3e6620 !important;
 }
